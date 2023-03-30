@@ -2,7 +2,12 @@
     max-width: 1140px;
     margin: auto;
 }
-
+.coin__name-text {
+    color: white;
+}
+p {
+    color: white;
+}
 .heading {
     display: flex;
     justify-content: space-between;

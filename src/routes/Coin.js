@@ -26,7 +26,7 @@ const Coin = () => {
     <div>
       <div className="coin-container">
         <div className="content">
-          <h1>{coin.name}</h1>
+          <h1 className="coin__name-text">{coin.name}</h1>
         </div>
         <div className="content">
           <div className="rank">
@@ -40,7 +40,9 @@ const Coin = () => {
             </div>
             <div className="coin-price">
               {coin.market_data?.current_price ? (
-                <h1>${coin.market_data.current_price.usd.toLocaleString()}</h1>
+                <h1 className="coin__market-data">
+                  ${coin.market_data.current_price.usd.toLocaleString()}
+                </h1>
               ) : null}
             </div>
           </div>
