@@ -11,8 +11,13 @@ const Navbar = () => {
         <h1>
           {' '}
           Crypto <span className="purple">Search</span>
-        </h1>
-      </div>
+        </h1>{' '}
+      </div>{' '}
+      {/* <div className="search-bar">
+        <div className="input-block">
+          <input className="search-input" type="input" placeholder="search coin"></input>
+        </div>
+      </div> */}
     </Link>
   );
 };
